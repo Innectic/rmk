@@ -2,5 +2,8 @@
 name = "rmk"
 version = "0.1.0"
 authors = ["Innectic <innectic@gmail.com>"]
+repository = "https://github.com/innectic/rmk"
+license = "MIT"
+description = "Rusty version of QMK"
 
 [dependencies]

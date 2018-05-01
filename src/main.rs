@@ -1,3 +1,7 @@
-fn main() {
-    println!("Hello, world!");
-}
+
+#![no_std]
+
+mod matrixes;
+mod code;
+
+// TODO: stuff
