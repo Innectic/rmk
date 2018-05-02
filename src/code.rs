@@ -77,10 +77,10 @@ pub enum KeyCode {
 impl KeyCode {
 
 	pub fn modifier(&self) -> bool {
-		self >= KeyCode::LeftControl && self <= &KeyCode::RMeta
+		self >= &KeyCode::LeftControl && self <= &KeyCode::RightMeta
 	}
 
 	pub fn normal(&self) -> bool {
-		self >= KeyCode::A && self <= &KeyCode::Application
+		self >= &KeyCode::A && self <= &KeyCode::Application
 	}
 }

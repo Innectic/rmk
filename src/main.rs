@@ -1,7 +1,12 @@
 
-#![no_std]
+// #![no_std]
 
-mod matrixes;
 mod code;
 
-// TODO: stuff
+#[macro_use]
+mod board;
+mod boards;
+
+pub fn main() {
+	boards::test();
+}
