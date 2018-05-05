@@ -61,7 +61,7 @@ pub enum KeyCode {
 	Pad9,
 	Pad0,
 	PadDot,
-	NoneUSBlackSlash,
+	NonUSBackSlash,
 	Application,
 
 	LeftControl = 0xE0,
